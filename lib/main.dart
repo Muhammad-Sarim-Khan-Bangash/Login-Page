@@ -29,6 +29,13 @@ class MyApp extends StatelessWidget {
                 child: Column(
                   children: [
                     SizedBox(height: 50),
+                    Container(
+                        child: Image.asset(
+                      'images/login.png',
+                      width: 200,
+                      height: 200,
+                    )),
+                    SizedBox(height: 30),
                     Text(
                       "EMAIL",
                       style: TextStyle(
